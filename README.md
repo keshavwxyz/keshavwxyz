@@ -11,25 +11,6 @@ I like building robots that use their own sensors to find their way and finish r
 
 ---
 
-## 🚜 Featured project
-
-### [ROS 2 Gazebo Multi-Forklift Fleet](https://github.com/keshavwxyz/ros2-gazebo-multi-forklift)
-
-<a href="https://github.com/keshavwxyz/ros2-gazebo-multi-forklift">
-  <img src="https://raw.githubusercontent.com/keshavwxyz/ros2-gazebo-multi-forklift/main/docs/media/teaser.gif" alt="An autonomous forklift aligns its forks with a QR-labelled pallet" width="600">
-</a>
-
-Two autonomous forklifts share one warehouse in ROS 2 Jazzy and Gazebo Harmonic. A fleet
-coordinator assigns the tasks. Each forklift reads a QR code with its camera, drives with Nav2,
-lifts the pallet by physical contact and delivers it to the shelf that the code names.
-
-- ✅ 3/3 boxes delivered, **32% faster** than with one forklift
-- ✅ About 5 cm placement error, with **0 robot-to-robot collisions**
-- ✅ **489 automated tests** (unit, mock hardware and full Gazebo simulation)
-- 🧩 Cost-based task allocation, zone reservations, head-on and reverse-conflict resolution, rear-LiDAR safety
-
----
-
 ## 🛠️ Tech stack
 
 **Robotics:**
